@@ -4,7 +4,7 @@
 
 简化Flutter交错动画。用动画配置的形式，通过时间线去驱动Flutter的交错动画。你可以
 
-1. 使用`Flutter Animation Set`现有的动画集组件
+1. 使用`Flutter Animation Set`现有的动画组件
 2. 使用`Flutter Animation Set`去创建新的动画组件
 3. 贡献你的`Flutter Animation Set`动画组件
 
@@ -31,10 +31,7 @@ child: YYRotatingPlane(),
 
 **3、road map**
 
-动画集组件一共分为两种形式
-
-* transition_animations：过渡动画。如YYRotatingPlane、YYDoubleBounce、YYWave
-* behavior_animation：行为动画。如YYFadeButton、YYLike、YYLove
+> transition_animations 过渡动画
 
 <table>
   <tr>
@@ -154,6 +151,13 @@ child: YYRotatingPlane(),
       <br />
       ✅
     </td>
+  </tr>
+</table>
+
+> behavior_animation 行为动画
+
+<table>
+  <tr>
     <td align="center">
       <img src="./gif/17.gif" width="90px">
       <br />
@@ -168,8 +172,6 @@ child: YYRotatingPlane(),
       <br />
       ✅
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="./gif/19.gif" width="90px">
       <br />
