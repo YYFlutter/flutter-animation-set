@@ -39,42 +39,42 @@ child: YYRotatingPlane(),
 <table>
   <tr>
     <td align="center">
-      <img src="./gif/1.gif" width="100px">
+      <img src="./gif/1.gif" width="90px">
       <br />
       YYRotatingPlane
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/2.gif" width="100px">
+      <img src="./gif/2.gif" width="90px">
       <br />
       YYDoubleBounce
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/Wave.gif" width="100px">
+      <img src="./gif/3.gif" width="90px">
       <br />
       YYWave
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/WanderingCubes.gif" width="100px">
+      <img src="./gif/4.gif" width="90px">
       <br />
       YYWanderingCubes
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/FadingFour.gif" width="100px">
+      <img src="./gif/5.gif" width="90px">
       <br />
       YYFadingFour
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/FadingCube.gif" width="100px">
+      <img src="./gif/6.gif" width="90px">
       <br />
       YYFadingCube
       <br />
@@ -83,42 +83,42 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/Pulse.gif" width="100px">
+      <img src="./gif/7.gif" width="90px">
       <br />
       YYPulse
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/ChasingDots.gif" width="100px">
+      <img src="./gif/8.gif" width="90px">
       <br />
       YYThreeBounce
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/ThreeBounce.gif" width="100px">
+      <img src="./gif/9.gif" width="90px">
       <br />
       YYThreeLine
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/Circle.gif" width="100px">
+      <img src="./gif/10.gif" width="90px">
       <br />
       YYCubeGrid
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/CubeGrid.gif" width="100px">
+      <img src="./gif/11.gif" width="90px">
       <br />
       YYRotatingCircle
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/FadingCircle.gif" width="100px">
+      <img src="./gif/12.gif" width="90px">
       <br />
       YYPumpingHeart
       <br />
@@ -127,42 +127,42 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingCircle.gif" width="100px">
+      <img src="./gif/13.gif" width="90px">
       <br />
       YYRipple
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/FoldingCube.gif" width="100px">
+      <img src="./gif/14.gif" width="90px">
       <br />
       YYRotateLine
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/heart.gif" width="100px">
+      <img src="./gif/15.gif" width="90px">
       <br />
       YYCubeFadeIn
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/dual-ring.gif" width="100px">
+      <img src="./gif/16.gif" width="90px">
       <br />
       YYBlinkGrid
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/hour-glass.gif" width="100px">
+      <img src="./gif/17.gif" width="90px">
       <br />
       YYFadeButton
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/PouringHourGlass.gif" width="100px">
+      <img src="./gif/18.gif" width="90px">
       <br />
       YYLike
       <br />
@@ -171,14 +171,14 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/grid.gif" width="100px">
+      <img src="./gif/19.gif" width="90px">
       <br />
       YYLove
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/jogboms/flutter_spinkit/master/screenshots/ring.gif" width="100px">
+      <img src="./gif/20.gif" width="90px">
       <br />
       YYMenu
       <br />
