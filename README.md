@@ -168,7 +168,7 @@ child: YYRotatingPlane(),
     <td align="center">
       <img src="./gif/18.gif" width="90px">
       <br />
-      YYLike
+      YYSingleLike
       <br />
       ✅
     </td>
@@ -182,26 +182,17 @@ child: YYRotatingPlane(),
     <td align="center">
       <img src="./gif/20.gif" width="90px">
       <br />
-      YYMenu
+      YYSpringMenu
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/20.gif" width="90px">
+      <img src="./gif/21.gif" width="90px">
       <br />
-      YYMenu
-      <br />
-      ✅
-    </td>
-    <td align="center">
-      <img src="./gif/20.gif" width="90px">
-      <br />
-      YYMenu
+      YYFoldMenu
       <br />
       ✅
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <img src="./gif/20.gif" width="90px">
       <br />

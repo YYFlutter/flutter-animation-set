@@ -30,7 +30,7 @@ class YYFadeButton extends StatelessWidget {
             serialList: [
               O(from: 0.2, to: 1.0),
               TY(from: 0.0, to: 10.0),
-              C(from: Colors.white, to: Colors.red[500]),
+              C(from: Colors.white, to: Colors.red[400]),
               B(
                 from: BorderRadius.circular(0.0),
                 to: BorderRadius.circular(10.0),
@@ -44,7 +44,7 @@ class YYFadeButton extends StatelessWidget {
   }
 }
 
-class YYLike extends StatelessWidget {
+class YYSingleLike extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -137,7 +137,7 @@ Widget makeLove(double tx, double ty, Curve curves) {
   );
 }
 
-class YYMenu extends StatelessWidget {
+class YYSpringMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -206,6 +206,83 @@ class YYMenu extends StatelessWidget {
                 serialList: [
                   TY(from: 0.0, to: 12.0, curve: Curves.elasticInOut),
                   TX(from: 0.0, to: 20.0, curve: Curves.elasticInOut),
+                  SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+                  SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+                ],
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class YYFoldMenu extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 40,
+      height: 40,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          AnimatorSet(
+            animationType: AnimationType.reverse,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+              width: 30,
+              height: 10,
+            ),
+            animatorSet: [
+              Serial(
+                duration: 2000,
+                serialList: [
+                  TY(from: 0.0, to: 40.0, curve: Curves.elasticInOut),
+                  SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+                  SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+                ],
+              ),
+            ],
+          ),
+          AnimatorSet(
+            animationType: AnimationType.reverse,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+              width: 30,
+              height: 10,
+            ),
+            animatorSet: [
+              Serial(
+                duration: 2000,
+                delay: 100,
+                serialList: [
+                  TY(from: 0.0, to: 26.0, curve: Curves.elasticInOut),
+                  SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+                  SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+                ],
+              ),
+            ],
+          ),
+          AnimatorSet(
+            animationType: AnimationType.reverse,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+              width: 30,
+              height: 10,
+            ),
+            animatorSet: [
+              Serial(
+                duration: 2000,
+                delay: 200,
+                serialList: [
+                  TY(from: 0.0, to: 12.0, curve: Curves.elasticInOut),
                   SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
                   SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
                 ],

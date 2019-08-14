@@ -40,9 +40,10 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
               BoxColor(child: YYCubeFadeIn(), color: Color(0xFFFCCB63)),
               BoxColor(child: YYBlinkGrid(), color: Color(0xFF323232)),
               BoxColor(child: YYFadeButton(), color: Color(0xFF3279B5)),
-              BoxColor(child: YYLike(), color: Color(0xFFF4A352)),
+              BoxColor(child: YYSingleLike(), color: Color(0xFFF4A352)),
               BoxColor(child: YYLove(), color: Color(0xFF2F3E50)),
-              BoxColor(child: YYMenu(), color: Color(0xFF00BA9B)),
+              BoxColor(child: YYSpringMenu(), color: Color(0xFF00BA9B)),
+              BoxColor(child: YYFoldMenu(), color: Color(0xFF58BD60)),
             ],
           )),
     );
