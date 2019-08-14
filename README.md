@@ -39,14 +39,14 @@ child: YYRotatingPlane(),
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/RotatingPlane.gif" width="100px">
+      <img src="./gif/1.gif" width="100px">
       <br />
       YYRotatingPlane
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/ybq/AndroidSpinKit/master/art/DoubleBounce.gif" width="100px">
+      <img src="./gif/2.gif" width="100px">
       <br />
       YYDoubleBounce
       <br />
