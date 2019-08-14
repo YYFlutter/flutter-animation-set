@@ -2,18 +2,19 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_spinkit.svg)](https://pub.dartlang.org/packages/flutter_spinkit)
 
-简化Flutter交错动画。用动画集的列表形式，通过时间去驱动Flutter的交错动画。开发者可以通过已有的动画集组件进行使用，或者通过动画集库去创建新的动画组件。已有的组件一共分为两种形式
+简化Flutter交错动画。用动画配置的形式，通过时间线去驱动Flutter的交错动画。你可以
 
-* transition_animations：过渡动画。如Loading
-* behavior_animation：行为动画。如菜单展开，点赞
+1. 使用`Flutter Animation Set`现有的动画集组件
+2. 使用`Flutter Animation Set`去创建新的动画组件
+3. 贡献你的`Flutter Animation Set`动画组件
 
-### 🎖 Installing
+## 🎖 Installing
 
 ```yaml
 coming soon
 ```
 
-### ⚡ Use Animation Set Widget
+## ⚡ Use Animation Set Widget
 
 1、import
 
@@ -25,10 +26,15 @@ import 'package:flutter_animation_set/widget/behavior_animation.dart';
 2、use
 
 ```dart
-child: YYWave()
+child: YYRotatingPlane(),
 ```
 
 3、road map
+
+动画集组件一共分为两种形式
+
+* transition_animations：过渡动画。如YYRotatingPlane、YYDoubleBounce、YYWave
+* behavior_animation：行为动画。如YYFadeButton、YYLike、YYLove
 
 <table>
   <tr>
@@ -199,7 +205,7 @@ child: YYWave()
 
 * [flutter_spinkit](https://github.com/jogboms/flutter_spinkit)
 
-### 🎮 Create Animation Set Widget By YourSelf
+## ⚡ Create Animation Set Widget By YourSelf
 
 1、import
 
@@ -231,7 +237,7 @@ about timeLine
 * Delay(timeDelay)
 * Serial(Combine)
 
-### For Example
+## For Example
 
 1、demo
 
@@ -245,17 +251,15 @@ about timeLine
 
 ```
 
-## 🐛 Bugs/Requests
+## Bugs/Requests
 
 * If your application has problems, please submit your code and effect to Issue.
 * Pull request are also welcome.
 
-### ❗️ Note
+## About
 
 QQ群:
 
-For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
-
-## ⭐️ License
+## License
 
 MIT License
