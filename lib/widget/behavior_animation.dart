@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -113,7 +115,6 @@ Widget makeLove(double tx, double ty, Curve curves) {
     width: 10,
     height: 10,
     child: AnimatorSet(
-      debug: true,
       child: DecoratedBox(
         decoration: BoxDecoration(
           color: Colors.white,

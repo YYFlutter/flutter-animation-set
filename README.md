@@ -196,7 +196,7 @@ child: YYRotatingPlane(),
     <td align="center">
       <img src="./gif/20.gif" width="90px">
       <br />
-      YYMenu
+      YYSpringMenuYYSpringMenu
       <br />
       ✅
     </td>
