@@ -16,20 +16,20 @@ coming soon
 
 ## ⚡ Use Animation Set Widget
 
-1、import
+**1、import**
 
 ```dart
 import 'package:flutter_animation_set/widget/transition_animations.dart';
 import 'package:flutter_animation_set/widget/behavior_animation.dart';
 ```
 
-2、use
+**2、use**
 
 ```dart
 child: YYRotatingPlane(),
 ```
 
-3、road map
+**3、road map**
 
 动画集组件一共分为两种形式
 
@@ -187,51 +187,51 @@ child: YYRotatingPlane(),
   </tr>
 </table>
 
-4、thanks
+**4、thanks**
 
 * [flutter_spinkit](https://github.com/jogboms/flutter_spinkit)
 
 ## ⚡ Create Animation Set Widget By YourSelf
 
-1、import
+**1、import**
 
 ```dart
 import 'package:flutter_animation_set/animation_set.dart';
 import 'package:flutter_animation_set/animator.dart';
 ```
 
-2、api
+**2、api**
 
 about animation
 
-* W(width)
-* H(height)
-* P(padding)
-* O(opacity)
-* SX(scaleX)
-* SY(scaleY)
-* RX(rotateX)
-* RY(rotateY)
-* RZ(rotateZ)
-* TX(transitionX)
-* TY(transitionY)
-* C(color)
-* B(border)
+* W(width)：控制宽度的变化，如果是按比例拉升，建议用SX替代
+* H(height)：控制高度的变化，如果是按比例拉升，建议用SY替代
+* P(padding)：控制边距的变化
+* O(opacity)：控制透明度的变化
+* SX(scaleX)：以中点进行X轴的缩放
+* SY(scaleY)：以中点进行Y轴的缩放
+* RX(rotateX)：以中点进行X轴的旋转
+* RY(rotateY)：以中点进行Y轴的旋转
+* RZ(rotateZ)：以中点进行Z轴的旋转
+* TX(transitionX)：进行X轴的平移
+* TY(transitionY)：进行Y轴的平移
+* C(color)：控制背景颜色变化
+* B(border)：控制背景边框变化
 
 about timeLine
 
-* Delay(timeDelay)
-* Serial(Combine)
+* Delay(timeDelay)：延长时间线，进入等待阶段
+* Serial(Combine)：通过组合动画，达到通知播放的效果
 
 ## For Example
 
-1、demo
+**1、demo**
 
 ```dart
 
 ```
 
-2、create
+**2、create**
 
 ```dart
 
