@@ -193,13 +193,6 @@ child: YYRotatingPlane(),
       <br />
       ✅
     </td>
-    <td align="center">
-      <img src="./gif/20.gif" width="90px">
-      <br />
-      YYSpringMenuYYSpringMenu
-      <br />
-      ✅
-    </td>
   </tr>
 </table>
 
