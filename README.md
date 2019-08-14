@@ -156,7 +156,7 @@ child: YYRotatingPlane(),
 
 > behavior_animation 行为动画
 
-<table width="95%">
+<table>
   <tr>
     <td align="center">
       <img src="./gif/17.gif" width="90px">
