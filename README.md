@@ -186,6 +186,20 @@ child: YYRotatingPlane(),
       <br />
       ✅
     </td>
+    <td align="center">
+      <img src="./gif/20.gif" width="90px">
+      <br />
+      YYMenu
+      <br />
+      ✅
+    </td>
+    <td align="center">
+      <img src="./gif/20.gif" width="90px">
+      <br />
+      YYMenu
+      <br />
+      ✅
+    </td>
   </tr>
 </table>
 
