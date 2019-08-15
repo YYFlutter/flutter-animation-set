@@ -89,86 +89,32 @@ class YYWave extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          AnimatorSet(
-            child: Container(
-              color: Colors.white,
-              width: 5,
-              height: 15,
-            ),
-            animatorSet: [
-              SY(from: 0.8, to: 1.6, duration: 200),
-              SY(from: 1.6, to: 0.8, duration: 200),
-              Delay(duration: 500),
-            ],
-          ),
-          AnimatorSet(
-            child: Container(
-              color: Colors.white,
-              width: 5,
-              height: 15,
-            ),
-            animatorSet: [
-              Delay(duration: 100),
-              SY(from: 0.8, to: 1.6, duration: 200),
-              SY(from: 1.6, to: 0.8, duration: 200),
-              Delay(duration: 400),
-            ],
-          ),
-          AnimatorSet(
-            child: Container(
-              color: Colors.white,
-              width: 5,
-              height: 15,
-            ),
-            animatorSet: [
-              Delay(duration: 200),
-              SY(from: 0.8, to: 1.6, duration: 200),
-              SY(from: 1.6, to: 0.8, duration: 200),
-              Delay(duration: 300),
-            ],
-          ),
-          AnimatorSet(
-            child: Container(
-              color: Colors.white,
-              width: 5,
-              height: 15,
-            ),
-            animatorSet: [
-              Delay(duration: 300),
-              SY(from: 0.8, to: 1.6, duration: 200),
-              SY(from: 1.6, to: 0.8, duration: 200),
-              Delay(duration: 200),
-            ],
-          ),
-          AnimatorSet(
-            child: Container(
-              color: Colors.white,
-              width: 5,
-              height: 15,
-            ),
-            animatorSet: [
-              Delay(duration: 400),
-              SY(from: 0.8, to: 1.6, duration: 200),
-              SY(from: 1.6, to: 0.8, duration: 200),
-              Delay(duration: 100),
-            ],
-          ),
-          AnimatorSet(
-            child: Container(
-              color: Colors.white,
-              width: 5,
-              height: 15,
-            ),
-            animatorSet: [
-              Delay(duration: 500),
-              SY(from: 0.8, to: 1.6, duration: 200),
-              SY(from: 1.6, to: 0.8, duration: 200),
-            ],
-          ),
+          makeWave(0, 500),
+          makeWave(100, 400),
+          makeWave(200, 300),
+          makeWave(300, 200),
+          makeWave(400, 100),
+          makeWave(500, 0),
         ],
       ),
     );
   }
+}
+
+Widget makeWave(int before, int after) {
+  return AnimatorSet(
+    child: Container(
+      color: Colors.white,
+      width: 5,
+      height: 15,
+    ),
+    animatorSet: [
+      Delay(duration: before),
+      SY(from: 0.8, to: 1.6, duration: 200),
+      SY(from: 1.6, to: 0.8, duration: 200),
+      Delay(duration: after),
+    ],
+  );
 }
 
 class YYWanderingCubes extends StatelessWidget {

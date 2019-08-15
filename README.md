@@ -36,42 +36,42 @@ child: YYRotatingPlane(),
 <table>
   <tr>
     <td align="center">
-      <img src="./gif/1.gif" width="90px">
+      <img src="./image/gif/1.gif" width="90px">
       <br />
       YYRotatingPlane
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/2.gif" width="90px">
+      <img src="./image/gif/2.gif" width="90px">
       <br />
       YYDoubleBounce
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/3.gif" width="90px">
+      <img src="./image/gif/3.gif" width="90px">
       <br />
       YYWave
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/4.gif" width="90px">
+      <img src="./image/gif/4.gif" width="90px">
       <br />
       YYWanderingCubes
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/5.gif" width="90px">
+      <img src="./image/gif/5.gif" width="90px">
       <br />
       YYFadingFour
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/6.gif" width="90px">
+      <img src="./image/gif/6.gif" width="90px">
       <br />
       YYFadingCube
       <br />
@@ -80,42 +80,42 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="./gif/7.gif" width="90px">
+      <img src="./image/gif/7.gif" width="90px">
       <br />
       YYPulse
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/8.gif" width="90px">
+      <img src="./image/gif/8.gif" width="90px">
       <br />
       YYThreeBounce
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/9.gif" width="90px">
+      <img src="./image/gif/9.gif" width="90px">
       <br />
       YYThreeLine
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/10.gif" width="90px">
+      <img src="./image/gif/10.gif" width="90px">
       <br />
       YYCubeGrid
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/11.gif" width="90px">
+      <img src="./image/gif/11.gif" width="90px">
       <br />
       YYRotatingCircle
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/12.gif" width="90px">
+      <img src="./image/gif/12.gif" width="90px">
       <br />
       YYPumpingHeart
       <br />
@@ -124,28 +124,28 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="./gif/13.gif" width="90px">
+      <img src="./image/gif/13.gif" width="90px">
       <br />
       YYRipple
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/14.gif" width="90px">
+      <img src="./image/gif/14.gif" width="90px">
       <br />
       YYRotateLine
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/15.gif" width="90px">
+      <img src="./image/gif/15.gif" width="90px">
       <br />
       YYCubeFadeIn
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/16.gif" width="90px">
+      <img src="./image/gif/16.gif" width="90px">
       <br />
       YYBlinkGrid
       <br />
@@ -159,35 +159,35 @@ child: YYRotatingPlane(),
 <table>
   <tr>
     <td align="center">
-      <img src="./gif/17.gif" width="90px">
+      <img src="./image/gif/17.gif" width="90px">
       <br />
       YYFadeButton
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/18.gif" width="90px">
+      <img src="./image/gif/18.gif" width="90px">
       <br />
       YYSingleLike
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/19.gif" width="90px">
+      <img src="./image/gif/19.gif" width="90px">
       <br />
       YYLove
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/20.gif" width="90px">
+      <img src="./image/gif/20.gif" width="90px">
       <br />
       YYSpringMenu
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./gif/21.gif" width="90px">
+      <img src="./image/gif/21.gif" width="90px">
       <br />
       YYFoldMenu
       <br />
@@ -234,22 +234,83 @@ about timeLine
 
 ## For Example
 
-**1、demo**
+**1、create timeLine**
+
+<img src="./image/readme/YYWave.jpg" width="500px">
+<br />
+
+1. 此图表明动画的组成是根据时间线(timeLine)去制作的
+2. 如果需要延长时间线，就用Delay组件去拖长时间线，duration属性为延长的时间
+3. 如果需要组合各种动画，就用Serial组件去组合动画，Serial的duration属性为组合动画时间
+
+**2、build animatorSet**
+
+通过上面的图示组装我们的动画组件，只需要控制好Delay的时间即可
 
 ```dart
-
+Widget makeWave(int before, int after) {
+  return AnimatorSet(
+    child: Container(
+      color: Colors.white,
+      width: 5,
+      height: 15,
+    ),
+    animatorSet: [
+      Delay(duration: before),
+      SY(from: 0.8, to: 1.6, duration: 200, delay: 0),
+      SY(from: 1.6, to: 0.8, duration: 200, delay: 0),
+      Delay(duration: after),
+    ],
+  );
+}
 ```
 
-**2、create**
+* from：动画初始值
+* to：动画结束值
+* duration：动画时间
+* delay：真正执行动画的延时
+
+**3、convert to code**
 
 ```dart
-
+class YYWave extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 40,
+      height: 40,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          makeWave(0, 500),
+          makeWave(100, 400),
+          makeWave(200, 300),
+          makeWave(300, 200),
+          makeWave(400, 100),
+          makeWave(500, 0),
+        ],
+      ),
+    );
+  }
+}
 ```
+
+## More
+
+**1、组合动画**
+
+
+
+2、延时动画
 
 ## Bugs/Requests
 
 * If your application has problems, please submit your code and effect to Issue.
 * Pull request are also welcome.
+
+## Contribution
+
+Contribute your component, and we'll add it to the animation set
 
 ## About
 
