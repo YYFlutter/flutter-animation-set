@@ -209,9 +209,9 @@ import 'package:flutter_animation_set/animation_set.dart';
 import 'package:flutter_animation_set/animator.dart';
 ```
 
-**2、api**
+**2、use api**
 
-about animation
+about animation widget
 
 * W(width):控制宽度的变化，如果是按比例拉升，建议用SX替代
 * H(height):控制高度的变化，如果是按比例拉升，建议用SY替代
@@ -227,7 +227,7 @@ about animation
 * C(color):控制背景颜色变化
 * B(border):控制背景边框变化
 
-about timeLine
+about support widget
 
 * Delay(timeDelay):延长时间线，进入等待阶段
 * Serial(Combine):通过组合动画，达到通知播放的效果
