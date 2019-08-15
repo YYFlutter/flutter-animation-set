@@ -254,7 +254,7 @@ Serial|通过组合动画，达到通知播放的效果
 
 **1、create timeLine**
 
-<img src="./image/readme/YYWave.png" width="500px">
+<img src="./image/readme/YYWave.png" width="700px">
 <br />
 
 1. 此图表明动画的组成是根据时间线(timeLine)去制作的
