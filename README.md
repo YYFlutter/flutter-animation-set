@@ -227,28 +227,28 @@ AnimatorSet(
 
 about animation widget
 
-Widget|Description
-:--|:--:|
-W(width)|控制宽度的变化，如果是按比例拉升，建议用SX替代
-H(height)|控制高度的变化，如果是按比例拉升，建议用SY替代
-P(padding)|控制边距的变化
-O(opacity)|控制透明度的变化
-SX(scaleX)|以中点进行X轴的缩放
-SY(scaleY)|以中点进行Y轴的缩放
-RX(rotateX)|以中点进行X轴的旋转
-RY(rotateY)|以中点进行Y轴的旋转
-RZ(rotateZ)|以中点进行Z轴的旋转
-TX(transitionX)|进行X轴的平移
-TY(transitionY)|进行Y轴的平移
-C(color)|控制背景颜色变化
-B(border)|控制背景边框变化
+Widget|Mean|Description
+:--|:--|:--:|
+**W**|width|控制宽度的变化，如果是按比例拉升，建议用SX替代
+**H**|height|控制高度的变化，如果是按比例拉升，建议用SY替代
+**P**|padding|控制边距的变化
+**O**|opacity|控制透明度的变化
+**SX**|scaleX|以中点进行X轴的缩放
+**SY**|scaleY|以中点进行Y轴的缩放
+**RX**|rotateX|以中点进行X轴的旋转
+**RY**|rotateY|以中点进行Y轴的旋转
+**RZ**|rotateZ|以中点进行Z轴的旋转
+**TX**|transitionX|进行X轴的平移
+**TY**|transitionY|进行Y轴的平移
+**C**|color|控制背景颜色变化
+**B**|border|控制背景边框变化
 
 about support widget
 
-Widget|Description
-:--|:--:|
-Delay|延长时间线，进入等待阶段
-Serial|通过组合动画，达到通知播放的效果
+Widget|Mean|Description
+:--|:--|:--:|
+Delay|delay timeLine|延长时间线，进入等待阶段
+Serial|combine animation|通过组合动画，达到通知播放的效果
 
 ## ⚡ For Example
 
