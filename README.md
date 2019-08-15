@@ -247,8 +247,8 @@ about support widget
 
 Widget|Mean|Description
 :--|:--|:--:|
-Delay|delay timeLine|延长时间线，进入等待阶段
-Serial|combine animation|通过组合动画，达到通知播放的效果
+**Delay**|delay timeLine|延长时间线，进入等待阶段
+**Serial**|combine animation|通过组合动画，达到通知播放的效果
 
 ## ⚡ For Example
 
