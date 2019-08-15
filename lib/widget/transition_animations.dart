@@ -110,8 +110,8 @@ Widget makeWave(int before, int after) {
     ),
     animatorSet: [
       Delay(duration: before),
-      SY(from: 0.8, to: 1.6, duration: 200),
-      SY(from: 1.6, to: 0.8, duration: 200),
+      SY(from: 0.8, to: 1.6, duration: 200, delay: 0, curve: Curves.linear),
+      SY(from: 1.6, to: 0.8, duration: 200, delay: 0, curve: Curves.linear),
       Delay(duration: after),
     ],
   );
@@ -514,73 +514,43 @@ class YYThreeLine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: 40,
-        height: 40,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            AnimatorSet(
-              child: Container(
-                color: Colors.white,
-                width: 10,
-                height: 5,
-              ),
-              animatorSet: [
-                TY(
-                    from: 0.0,
-                    to: 5.0,
-                    duration: 400,
-                    curve: Curves.fastOutSlowIn),
-                TY(
-                    from: 5.0,
-                    to: 0.0,
-                    duration: 400,
-                    curve: Curves.fastOutSlowIn),
-              ],
-            ),
-            AnimatorSet(
-              child: Container(
-                color: Colors.white,
-                width: 10,
-                height: 5,
-              ),
-              animatorSet: [
-                TY(
-                    from: 0.0,
-                    to: 5.0,
-                    duration: 400,
-                    delay: 50,
-                    curve: Curves.fastOutSlowIn),
-                TY(
-                    from: 5.0,
-                    to: 0.0,
-                    duration: 400,
-                    curve: Curves.fastOutSlowIn),
-              ],
-            ),
-            AnimatorSet(
-              child: Container(
-                color: Colors.white,
-                width: 10,
-                height: 5,
-              ),
-              animatorSet: [
-                TY(
-                    from: 0.0,
-                    to: 5.0,
-                    duration: 400,
-                    delay: 100,
-                    curve: Curves.fastOutSlowIn),
-                TY(
-                    from: 5.0,
-                    to: 0.0,
-                    duration: 400,
-                    curve: Curves.fastOutSlowIn),
-              ],
-            ),
-          ],
-        ));
+      width: 40,
+      height: 40,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          makeLine(0),
+          makeLine(50),
+          makeLine(100),
+        ],
+      ),
+    );
   }
+}
+
+Widget makeLine(int delay) {
+  return AnimatorSet(
+    child: Container(
+      color: Colors.white,
+      width: 10,
+      height: 5,
+    ),
+    animatorSet: [
+      TY(
+        from: 0.0,
+        to: 5.0,
+        duration: 400,
+        delay: delay,
+        curve: Curves.fastOutSlowIn,
+      ),
+      TY(
+        from: 5.0,
+        to: 0.0,
+        duration: 400,
+        curve: Curves.fastOutSlowIn,
+      ),
+    ],
+  );
 }
 
 class YYCubeGrid extends StatelessWidget {

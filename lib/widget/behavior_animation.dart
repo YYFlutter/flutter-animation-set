@@ -228,70 +228,35 @@ class YYFoldMenu extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          AnimatorSet(
-            animationType: AnimationType.reverse,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-              ),
-              width: 30,
-              height: 10,
-            ),
-            animatorSet: [
-              Serial(
-                duration: 2000,
-                serialList: [
-                  TY(from: 0.0, to: 40.0, curve: Curves.elasticInOut),
-                  SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
-                  SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
-                ],
-              ),
-            ],
-          ),
-          AnimatorSet(
-            animationType: AnimationType.reverse,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-              ),
-              width: 30,
-              height: 10,
-            ),
-            animatorSet: [
-              Serial(
-                duration: 2000,
-                delay: 100,
-                serialList: [
-                  TY(from: 0.0, to: 26.0, curve: Curves.elasticInOut),
-                  SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
-                  SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
-                ],
-              ),
-            ],
-          ),
-          AnimatorSet(
-            animationType: AnimationType.reverse,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-              ),
-              width: 30,
-              height: 10,
-            ),
-            animatorSet: [
-              Serial(
-                duration: 2000,
-                delay: 200,
-                serialList: [
-                  TY(from: 0.0, to: 12.0, curve: Curves.elasticInOut),
-                  SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
-                  SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
-                ],
-              ),
-            ],
-          ),
+          makeFoldMenu(0, 40),
+          makeFoldMenu(100, 26.0),
+          makeFoldMenu(200, 12.0),
         ],
       ),
     );
   }
+}
+
+Widget makeFoldMenu(int delay, double toY) {
+  return AnimatorSet(
+    animationType: AnimationType.reverse,
+    child: Container(
+      decoration: BoxDecoration(
+        color: Colors.white,
+      ),
+      width: 30,
+      height: 10,
+    ),
+    animatorSet: [
+      Serial(
+        duration: 2000,
+        delay: delay,
+        serialList: [
+          TY(from: 0.0, to: toY, curve: Curves.elasticInOut),
+          SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+          SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+        ],
+      ),
+    ],
+  );
 }

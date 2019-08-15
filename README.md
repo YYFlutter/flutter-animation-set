@@ -233,10 +233,10 @@ about support widget
 
 Widget|Description
 :--|:--:|
-Delay(timeDelay)|延长时间线，进入等待阶段
-Serial(Combine)|通过组合动画，达到通知播放的效果
+Delay|延长时间线，进入等待阶段
+Serial|通过组合动画，达到通知播放的效果
 
-## For Example
+## ⚡ For Example
 
 **1、create timeLine**
 
@@ -261,8 +261,8 @@ Widget makeWave(int before, int after) {
     ),
     animatorSet: [
       Delay(duration: before),
-      SY(from: 0.8, to: 1.6, duration: 200, delay: 0),
-      SY(from: 1.6, to: 0.8, duration: 200, delay: 0),
+      SY(from: 0.8, to: 1.6, duration: 200, delay: 0, curve: Curves.linear),
+      SY(from: 1.6, to: 0.8, duration: 200, delay: 0, curve: Curves.linear),
       Delay(duration: after),
     ],
   );
@@ -273,6 +273,7 @@ Widget makeWave(int before, int after) {
 * to:动画结束值
 * duration:动画时间
 * delay:真正执行动画的延时
+* curve:动画插值器
 
 **3、convert to code**
 
@@ -302,15 +303,129 @@ class YYWave extends StatelessWidget {
 **4、done**
 
 <img src="./image/gif/1.gif" width="90px">
-<br />
 
 ## More
 
 **1、组合动画**
 
+> 缩放效果需要同时缩放X、Y轴
 
+```dart
+animatorSet: [
+  Serial(
+    duration: 2000,
+    serialList: [
+      SX(from: 0.0, to: 1.0, curve: Curves.easeInOut),
+      SY(from: 0.0, to: 1.0, curve: Curves.easeInOut),
+    ],
+  ),
+],
+```
 
 **2、延时动画**
+
+对真正做动画的时候处理delay属性
+
+```dart
+class YYThreeLine extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 40,
+      height: 40,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          makeLine(0),
+          makeLine(50),
+          makeLine(100),
+        ],
+      ),
+    );
+  }
+}
+
+Widget makeLine(int delay) {
+  return AnimatorSet(
+    child: Container(
+      color: Colors.white,
+      width: 10,
+      height: 5,
+    ),
+    animatorSet: [
+      TY(
+        from: 0.0,
+        to: 5.0,
+        duration: 400,
+        delay: delay,
+        curve: Curves.fastOutSlowIn,
+      ),
+      TY(
+        from: 5.0,
+        to: 0.0,
+        duration: 400,
+        curve: Curves.fastOutSlowIn,
+      ),
+    ],
+  );
+}
+```
+
+done
+
+<img src="./image/gif/9.gif" width="90px">
+
+**3、倒退动画**
+
+动画可以播放完成后，通过animationType属性设置`AnimationType.reverse`，让动画接着倒退播放
+
+```dart
+class YYFoldMenu extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 40,
+      height: 40,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: <Widget>[
+          makeFoldMenu(0, 40),
+          makeFoldMenu(100, 26.0),
+          makeFoldMenu(200, 12.0),
+        ],
+      ),
+    );
+  }
+}
+
+Widget makeFoldMenu(int delay, double toY) {
+  return AnimatorSet(
+    animationType: AnimationType.reverse,
+    child: Container(
+      decoration: BoxDecoration(
+        color: Colors.white,
+      ),
+      width: 30,
+      height: 10,
+    ),
+    animatorSet: [
+      Serial(
+        duration: 2000,
+        delay: delay,
+        serialList: [
+          TY(from: 0.0, to: toY, curve: Curves.elasticInOut),
+          SX(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+          SY(from: 1.0, to: 0.1, curve: Curves.elasticInOut),
+        ],
+      ),
+    ],
+  );
+}
+```
+
+done
+
+<img src="./image/gif/20.gif" width="90px">
 
 ## Bugs/Requests
 
