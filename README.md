@@ -209,7 +209,21 @@ import 'package:flutter_animation_set/animation_set.dart';
 import 'package:flutter_animation_set/animator.dart';
 ```
 
-**2、use api**
+**2、use widget**
+
+通过使用AnimatorSet组装动画
+
+* child:执行动画的组件
+* animatorSet：动画集合
+
+```dart
+AnimatorSet(
+    child: widget.child
+    animatorSet: [],
+)
+```
+
+**3、use api**
 
 about animation widget
 
@@ -302,7 +316,7 @@ class YYWave extends StatelessWidget {
 
 **4、done**
 
-<img src="./image/gif/1.gif" width="90px">
+<img src="./image/gif/3.gif" width="90px">
 
 ## More
 
@@ -425,7 +439,7 @@ Widget makeFoldMenu(int delay, double toY) {
 
 done
 
-<img src="./image/gif/20.gif" width="90px">
+<img src="./image/gif/21.gif" width="90px">
 
 ## Bugs/Requests
 
