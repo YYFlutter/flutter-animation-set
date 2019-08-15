@@ -236,7 +236,7 @@ about timeLine
 
 **1、create timeLine**
 
-<img src="./image/readme/YYWave.jpg" width="500px">
+<img src="./image/readme/YYWave.png" width="500px">
 <br />
 
 1. 此图表明动画的组成是根据时间线(timeLine)去制作的
