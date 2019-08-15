@@ -254,7 +254,7 @@ Widget|Mean|Description
 
 **1、create timeLine**
 
-<img src="./image/readme/YYWave.png" width="700px">
+<img src="./image/readme/YYWave.png" width="600px">
 <br />
 
 1. 此图表明动画的组成是根据时间线(timeLine)去制作的
