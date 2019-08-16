@@ -37,42 +37,42 @@ child: YYRotatingPlane(),
 <table>
   <tr>
     <td align="center">
-      <img src="./image/gif/1.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/1.gif" width="90px">
       <br />
       YYRotatingPlane
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/2.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/2.gif" width="90px">
       <br />
       YYDoubleBounce
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/3.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/3.gif" width="90px">
       <br />
       YYWave
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/4.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/4.gif" width="90px">
       <br />
       YYWanderingCubes
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/5.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/5.gif" width="90px">
       <br />
       YYFadingFour
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/6.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/6.gif" width="90px">
       <br />
       YYFadingCube
       <br />
@@ -81,42 +81,42 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="./image/gif/7.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/7.gif" width="90px">
       <br />
       YYPulse
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/8.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/8.gif" width="90px">
       <br />
       YYThreeBounce
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/9.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/9.gif" width="90px">
       <br />
       YYThreeLine
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/10.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/10.gif" width="90px">
       <br />
       YYCubeGrid
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/11.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/11.gif" width="90px">
       <br />
       YYRotatingCircle
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/12.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/12.gif" width="90px">
       <br />
       YYPumpingHeart
       <br />
@@ -125,28 +125,28 @@ child: YYRotatingPlane(),
   </tr>
   <tr>
     <td align="center">
-      <img src="./image/gif/13.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/13.gif" width="90px">
       <br />
       YYRipple
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/14.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/14.gif" width="90px">
       <br />
       YYRotateLine
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/15.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/15.gif" width="90px">
       <br />
       YYCubeFadeIn
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/16.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/16.gif" width="90px">
       <br />
       YYBlinkGrid
       <br />
@@ -160,35 +160,35 @@ child: YYRotatingPlane(),
 <table>
   <tr>
     <td align="center">
-      <img src="./image/gif/17.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/17.gif" width="90px">
       <br />
       YYFadeButton
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/18.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/18.gif" width="90px">
       <br />
       YYSingleLike
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/19.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/19.gif" width="90px">
       <br />
       YYLove
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/20.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/20.gif" width="90px">
       <br />
       YYSpringMenu
       <br />
       ✅
     </td>
     <td align="center">
-      <img src="./image/gif/21.gif" width="90px">
+      <img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/21.gif" width="90px">
       <br />
       YYFoldMenu
       <br />
@@ -255,7 +255,7 @@ Widget|Mean|Description
 
 **1、create timeLine**
 
-<img src="./image/readme/YYWave.png" width="600px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/readme/YYWave.png" width="600px">
 <br />
 
 1. 此图表明动画的组成是根据时间线(timeLine)去制作的
@@ -317,7 +317,7 @@ class YYWave extends StatelessWidget {
 
 **4、done**
 
-<img src="./image/gif/3.gif" width="90px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/3.gif" width="90px">
 
 ## More
 
@@ -388,7 +388,7 @@ Widget makeLine(int delay) {
 
 done
 
-<img src="./image/gif/9.gif" width="90px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/9.gif" width="90px">
 
 **3、倒退动画**
 
@@ -440,7 +440,7 @@ Widget makeFoldMenu(int delay, double toY) {
 
 done
 
-<img src="./image/gif/21.gif" width="90px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/21.gif" width="90px">
 
 ## Bugs/Requests
 
