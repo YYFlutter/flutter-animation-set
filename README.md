@@ -449,7 +449,8 @@ done
 
 ## Contribution
 
-Contribute your component, and we'll add it to the animation set
+* Contribute your component, and we'll add it to the animation set
+* Or post your animation, if interested, we will help you to achieve
 
 ## About
 
