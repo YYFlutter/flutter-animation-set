@@ -453,7 +453,12 @@ Contribute your component, and we'll add it to the animation set
 
 ## About
 
-QQ群:
+* QQ：510402535
+* QQ群：798874340
+* e-mail：xyj510402535@qq.com
+* g-mail：xyj51042535@gmail.com
+* Blog：http://blog.csdn.net/qq_30379689
+* Github：https://github.com/AndroidHensen
 
 ## License
 

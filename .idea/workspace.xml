@@ -31,15 +31,15 @@
         <counts>
           <entry key="LICENSE" value="2" />
           <entry key="dart" value="19" />
-          <entry key="md" value="5" />
-          <entry key="yaml" value="1" />
+          <entry key="md" value="6" />
+          <entry key="yaml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dart" value="19" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="YAML" value="1" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,14 +47,14 @@
           <entry key="dart" value="1030" />
           <entry key="md" value="1297" />
           <entry key="txt" value="6" />
-          <entry key="yaml" value="50" />
+          <entry key="yaml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dart" value="1030" />
           <entry key="PLAIN_TEXT" value="1303" />
-          <entry key="YAML" value="50" />
+          <entry key="YAML" value="60" />
         </counts>
       </usages-collector>
     </session>
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widget/transition_animations.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="6016">
-              <caret line="523" column="24" lean-forward="true" selection-start-line="523" selection-start-column="24" selection-end-line="523" selection-end-column="24" />
+              <caret line="523" column="24" selection-start-line="523" selection-start-column="24" selection-end-line="523" selection-end-column="24" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
                 <element signature="e#19710#27000#0" />
@@ -118,6 +118,24 @@
                 <element signature="e#34858#39999#0" />
                 <element signature="e#40039#40546#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1281">
+              <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -194,8 +212,8 @@
         <option value="$PROJECT_DIR$/lib/widget/transition_animations.dart" />
         <option value="$PROJECT_DIR$/lib/widget/behavior_animation.dart" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -450,7 +468,28 @@
       <option name="project" value="LOCAL" />
       <updated>1565877548990</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ReadMe">
+      <created>1565877952115</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565877952115</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ReadMe">
+      <created>1565877981185</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1565877981185</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ReadMe">
+      <created>1565925097630</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1565925097630</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -465,7 +504,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3298791" />
+      <window_info anchor="bottom" id="Messages" weight="0.3298791" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.3296893" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" />
@@ -475,7 +514,7 @@
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.638796" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46804836" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -591,24 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="391" column="10" lean-forward="true" selection-start-line="391" selection-start-column="10" selection-end-line="391" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/widget/transition_animations.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6016">
-          <caret line="523" column="24" lean-forward="true" selection-start-line="523" selection-start-column="24" selection-end-line="523" selection-end-column="24" />
+          <caret line="523" column="24" selection-start-line="523" selection-start-column="24" selection-end-line="523" selection-end-column="24" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
             <element signature="e#19710#27000#0" />
@@ -619,6 +644,20 @@
             <element signature="e#34858#39999#0" />
             <element signature="e#40039#40546#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="61" column="12" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
         </state>
       </provider>
     </entry>
