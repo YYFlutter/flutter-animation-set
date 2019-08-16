@@ -1,6 +1,6 @@
 # ✨ Flutter Animation Set
 
-[![pub package](https://img.shields.io/pub/v/flutter_spinkit.svg)](https://pub.dartlang.org/packages/flutter_spinkit)
+[![pub package](https://img.shields.io/pub/v/flutter_animation_set.svg)](https://pub.dev/packages/flutter_animation_set)
 
 简化Flutter交错动画。用动画配置的形式，通过时间线去驱动Flutter的交错动画。你可以
 
@@ -11,7 +11,8 @@
 ## 🎖 Installing
 
 ```yaml
-coming soon
+dependencies:
+  flutter_animation_set: ^0.0.1
 ```
 
 ## ⚡ Use Animation Set Widget
