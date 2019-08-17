@@ -12,7 +12,7 @@
 
 ```yaml
 dependencies:
-  flutter_animation_set: ^0.0.1
+  flutter_animation_set: ^0.0.2
 ```
 
 ## ⚡ Use Animation Set Widget
@@ -332,10 +332,15 @@ animatorSet: [
     serialList: [
       SX(from: 0.0, to: 1.0, curve: Curves.easeInOut),
       SY(from: 0.0, to: 1.0, curve: Curves.easeInOut),
+      O(from: 0.5, to: 0.0, delay: 1000, curve: Curves.easeInOut),
     ],
   ),
 ],
 ```
+
+done
+
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/gif/7.gif" width="90px">
 
 **2、延时动画**
 
@@ -368,19 +373,8 @@ Widget makeLine(int delay) {
       height: 5,
     ),
     animatorSet: [
-      TY(
-        from: 0.0,
-        to: 5.0,
-        duration: 400,
-        delay: delay,
-        curve: Curves.fastOutSlowIn,
-      ),
-      TY(
-        from: 5.0,
-        to: 0.0,
-        duration: 400,
-        curve: Curves.fastOutSlowIn,
-      ),
+      TY(from: 0.0, to: 5.0, duration: 400, delay: delay, curve: Curves.fastOutSlowIn,),
+      TY(from: 5.0, to: 0.0, duration: 400, curve: Curves.fastOutSlowIn,),
     ],
   );
 }
