@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+export 'package:flutter_animation_set/animator.dart';
+
 abstract class Animator<T> {
   T from;
   T to;

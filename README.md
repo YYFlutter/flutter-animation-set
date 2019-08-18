@@ -23,7 +23,7 @@ dependencies:
 
 ```dart
 import 'package:flutter_animation_set/widget/transition_animations.dart';
-import 'package:flutter_animation_set/widget/behavior_animation.dart';
+import 'package:flutter_animation_set/widget/behavior_animations.dart';
 ```
 
 **2、use**
@@ -157,7 +157,7 @@ child: YYRotatingPlane(),
   </tr>
 </table>
 
-> behavior_animation
+> behavior_animations
 
 <table>
   <tr>
@@ -221,7 +221,7 @@ Assemble the animation using an AnimatorSet Widget
 
 ```dart
 AnimatorSet(
-    child: widget.child
+    child: widget.child,
     animatorSet: [],
 )
 ```

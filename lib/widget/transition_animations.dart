@@ -6,6 +6,8 @@ import 'package:flutter/widgets.dart';
 import '../animation_set.dart';
 import '../animator.dart';
 
+export 'package:flutter_animation_set/widget/transition_animations.dart';
+
 class YYRotatingPlane extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'animator.dart';
 
+export 'package:flutter_animation_set/animation_set.dart'
+    show AnimatorSet, AnimationType;
+
 enum AnimationType {
   repeat,
   reverse,

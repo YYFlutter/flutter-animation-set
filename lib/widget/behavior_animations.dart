@@ -4,6 +4,8 @@ import 'package:flutter/widgets.dart';
 import '../animation_set.dart';
 import '../animator.dart';
 
+export 'package:flutter_animation_set/widget/behavior_animations.dart';
+
 class YYFadeButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
