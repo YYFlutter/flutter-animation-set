@@ -260,7 +260,7 @@ Widget|Mean|Description
 
 1. 此图表明动画的组成是根据时间线(timeLine)去制作的
 2. 如果需要延长时间线，就用Delay组件去拖长时间线，duration属性为延长的时间
-3. 如果需要组合各种动画，就用Serial组件去组合动画，Serial的duration属性为组合动画时间
+3. 如果需要组合各种动画，就用Serial组件去组合动画，duration属性为组合的时间
 
 **2、build animatorSet**
 

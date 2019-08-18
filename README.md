@@ -258,13 +258,13 @@ Widget|Mean|Description
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="600px">
 <br />
 
-1. 此图表明动画的组成是根据时间线(timeLine)去制作的
-2. 如果需要延长时间线，就用Delay组件去拖长时间线，duration属性为延长的时间
-3. 如果需要组合各种动画，就用Serial组件去组合动画，Serial的duration属性为组合动画时间
+1. This figure shows that the composition of the animation is made according to the timeLine
+2. If you need to extend the time line, use the Delay Widget to extend the line; the duration property is the extended time
+3. If you need to combine various animations, use the Serial Widget to do so, the duration property being the time of the composition
 
 **2、build animatorSet**
 
-通过上面的图示组装我们的动画组件，只需要控制好Delay的时间即可
+Assemble our animation components by the above icon, just need to control the time of Delay
 
 ```dart
 Widget makeWave(int before, int after) {
@@ -284,11 +284,11 @@ Widget makeWave(int before, int after) {
 }
 ```
 
-* from:动画初始值
-* to:动画结束值
-* duration:动画时间
-* delay:真正执行动画的延时
-* curve:动画插值器
+* from:Animation initial value
+* to:End of animation value
+* duration:Animation time
+* delay:The delay in actually executing the animation
+* curve:Animation interpolator
 
 **3、convert to code**
 
@@ -321,9 +321,9 @@ class YYWave extends StatelessWidget {
 
 ## More
 
-**1、组合动画**
+**1、Combination of animation**
 
-> 缩放效果需要同时缩放X、Y轴
+> The scaling effect requires scaling both the X and Y axes
 
 ```dart
 animatorSet: [
@@ -342,9 +342,9 @@ done
 
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/gif/7.gif" width="90px">
 
-**2、延时动画**
+**2、Time-lapse animations**
 
-对真正做动画的时候处理delay属性
+Deal with the delay attribute when you actually do the animation
 
 ```dart
 class YYThreeLine extends StatelessWidget {
@@ -384,9 +384,9 @@ done
 
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/gif/9.gif" width="90px">
 
-**3、倒退动画**
+**3、Reverse animation**
 
-动画可以播放完成后，通过animationType属性设置`AnimationType.reverse`，让动画接着倒退播放
+After the animation can be played, set `animationtype.reverse` through the animationType property, making the animation play back
 
 ```dart
 class YYFoldMenu extends StatelessWidget {
