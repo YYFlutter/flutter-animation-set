@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e74a2927-7388-47e1-97da-e8502d16f57d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/image/readme/screenShot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/readme/screenShot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/readme/screenShot3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/readme/screenShot4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_CN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/animation_set.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/animation_set.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/animator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/animator.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widget/behavior_animation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget/behavior_animations.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widget/transition_animations.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widget/transition_animations.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -37,30 +34,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="2" />
-          <entry key="dart" value="33" />
+          <entry key="dart" value="37" />
           <entry key="md" value="10" />
           <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="33" />
+          <entry key="Dart" value="37" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dart" value="1805" />
+          <entry key="dart" value="2553" />
           <entry key="md" value="1466" />
-          <entry key="txt" value="6" />
+          <entry key="txt" value="30" />
           <entry key="yaml" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Dart" value="1805" />
-          <entry key="PLAIN_TEXT" value="1472" />
+          <entry key="Dart" value="2553" />
+          <entry key="PLAIN_TEXT" value="1496" />
           <entry key="YAML" value="64" />
         </counts>
       </usages-collector>
@@ -83,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widget/transition_animations.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="-903">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
@@ -92,22 +89,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+            <state relative-caret-position="1428">
+              <caret line="141" column="3" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#546#3510#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/FlutterSDK/flutter/packages/flutter/lib/src/animation/curves.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="711" column="21" selection-start-line="711" selection-start-column="21" selection-end-line="711" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/FlutterSDK/flutter/bin/cache/pkg/sky_engine/lib/core/object.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1186">
+              <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
+            <state relative-caret-position="3950">
               <caret line="223" column="24" selection-start-line="223" selection-start-column="24" selection-end-line="223" selection-end-column="24" />
             </state>
           </provider>
@@ -132,28 +148,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/FlutterSDK/flutter/packages/flutter/lib/src/widgets/scroll_view.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/animation_set.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
               <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/FlutterSDK/flutter/packages/flutter/lib/src/widgets/framework.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="3858" column="79" selection-start-line="3858" selection-start-column="46" selection-end-line="3858" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -195,6 +193,8 @@
       <find>export</find>
       <find>CustomScrollView</find>
       <find>A</find>
+      <find>BoxColor(child:</find>
+      <find>))</find>
     </findStrings>
     <replaceStrings>
       <replace>(</replace>
@@ -204,6 +204,7 @@
       <replace>|</replace>
       <replace>https://github.com/efoxTeam/flutter-animation-set/blob/master/image/gif/</replace>
       <replace>raw</replace>
+      <replace>)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -233,10 +234,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-243" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="x" value="758" />
+    <option name="y" value="227" />
+    <option name="width" value="617" />
+    <option name="height" value="580" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -268,13 +269,7 @@
             <path>
               <item name="flutter_animation_set" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_animation_set" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_animation_set" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_animation_set" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widget" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,6 +289,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\YYLive3\flutter_animation_set\image\readme" />
       <recent name="C:\YYLive3\flutter_animation_set\image\gif" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -620,14 +616,35 @@
       <option name="project" value="LOCAL" />
       <updated>1566096594793</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ReadMe">
+      <created>1566102859455</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1566102859455</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add Curve Learning">
+      <created>1566110048396</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1566110048396</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add Curve Learning">
+      <created>1566110095311</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1566110095311</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-243" width="1096" height="1896" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23552124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23507462" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Captures" order="2" side_tool="true" />
       <window_info id="Structure" order="3" side_tool="true" />
@@ -663,7 +680,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe" />
+    <MESSAGE value="Add Curve Learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Curve Learning" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/flutter_animation_set_test.dart">
@@ -753,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widget/transition_animations.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/widget/behavior_animations.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -807,20 +815,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://C:/FlutterSDK/flutter/bin/cache/pkg/sky_engine/lib/core/object.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="223" column="24" selection-start-line="223" selection-start-column="24" selection-end-line="223" selection-end-column="24" />
+        <state relative-caret-position="1186">
+          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widget/transition_animations.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/FlutterSDK/flutter/packages/flutter/lib/src/animation/curves.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="711" column="21" selection-start-line="711" selection-start-column="21" selection-end-line="711" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="147" column="37" selection-start-line="147" selection-start-column="37" selection-end-line="147" selection-end-column="37" />
+        <state relative-caret-position="1428">
+          <caret line="141" column="3" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#546#3510#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3950">
+          <caret line="223" column="24" selection-start-line="223" selection-start-column="24" selection-end-line="223" selection-end-column="24" />
         </state>
       </provider>
     </entry>
