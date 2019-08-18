@@ -7,6 +7,7 @@
 1. 使用`Flutter Animation Set`现有的动画组件
 2. 使用`Flutter Animation Set`去创建新的动画组件
 3. 贡献你的`Flutter Animation Set`动画组件
+4. 在项目的example中观看所有的`Curves`动画效果
 
 ## 🎖 Installing
 

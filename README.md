@@ -9,14 +9,7 @@ Simplified Flutter stagger animation.To drive the Flutter stagger animation thro
 1. Uses the existing Animation Widget of `Flutter Animation Set`
 2. Use `Flutter Animation Set` to create a new Animation Widget
 3. Contribute your Flutter Animation Set Widget
-4. Learning Curves of Flutter in example
-
-## 🎖 ScreenShot
-
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot1.jpg" width="200px"></img>
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot2.png" width="200px"></img>
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot3.png" width="200px"></img>
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot4.png" width="200px"></img>
+4. Watch All of the `Curves` of Flutter in example
 
 ## 🎖 Installing
 
