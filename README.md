@@ -2,7 +2,7 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_animation_set.svg)](https://pub.dev/packages/flutter_animation_set)
 
-**Lanuage** [English Document](README.md) | [中文文档](README_CN.md)
+**[Lanuage ~~]** [English](README.md) | [中文文档](README_CN.md)
 
 Simplified Flutter stagger animation.To drive the Flutter stagger animation through a timeline in the form of an animation configuration.You can
 
