@@ -6,3 +6,7 @@
 ## 0.0.2
 
 * update pub read me
+
+## 0.0.3
+
+* add curves learning

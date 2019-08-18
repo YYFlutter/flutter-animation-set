@@ -15,7 +15,7 @@ Simplified Flutter stagger animation.To drive the Flutter stagger animation thro
 
 ```yaml
 dependencies:
-  flutter_animation_set: ^0.0.2
+  flutter_animation_set: ^0.0.3
 ```
 
 ## ⚡ Use Animation Set Widget
