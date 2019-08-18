@@ -20,10 +20,10 @@ dependencies:
 
 ## 🎖 ScreenShot
 
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot1.jpg" width="400px">
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot2.jpg" width="400px">
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot3.jpg" width="400px">
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot4.jpg" width="400px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot1.jpg" width="200px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot2.png" width="200px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot3.png" width="200px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot4.png" width="200px">
 
 ## ⚡ Use Animation Set Widget
 
