@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e74a2927-7388-47e1-97da-e8502d16f57d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/readme/screenShot1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/readme/screenShot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/readme/screenShot3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/readme/screenShot4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -49,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dart" value="2553" />
-          <entry key="md" value="1466" />
+          <entry key="md" value="1582" />
           <entry key="txt" value="30" />
           <entry key="yaml" value="64" />
         </counts>
@@ -57,7 +54,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dart" value="2553" />
-          <entry key="PLAIN_TEXT" value="1496" />
+          <entry key="PLAIN_TEXT" value="1612" />
           <entry key="YAML" value="64" />
         </counts>
       </usages-collector>
@@ -123,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3950">
-              <caret line="223" column="24" selection-start-line="223" selection-start-column="24" selection-end-line="223" selection-end-column="24" />
+            <state relative-caret-position="269">
+              <caret line="441" selection-start-line="441" selection-end-line="441" />
             </state>
           </provider>
         </entry>
@@ -227,9 +224,9 @@
         <option value="$PROJECT_DIR$/lib/animation_set.dart" />
         <option value="$PROJECT_DIR$/lib/api.dart" />
         <option value="$PROJECT_DIR$/lib/animator.dart" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README_CN.md" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -270,6 +267,12 @@
               <item name="flutter_animation_set" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_animation_set" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_animation_set" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_animation_set" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="readme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -637,7 +640,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566110095311</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Add Curve Learning">
+      <created>1566110775669</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1566110775669</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add Curve Learning">
+      <created>1566110863630</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1566110863630</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add Curve Learning">
+      <created>1566110920855</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1566110920855</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -852,8 +876,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3950">
-          <caret line="223" column="24" selection-start-line="223" selection-start-column="24" selection-end-line="223" selection-end-column="24" />
+        <state relative-caret-position="269">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
         </state>
       </provider>
     </entry>
