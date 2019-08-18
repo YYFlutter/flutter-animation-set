@@ -76,9 +76,9 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
             SliverList(
               delegate: SliverChildBuilderDelegate(
                 (BuildContext context, int index) {
-                  return box[index];
+                  return curveBox[index];
                 },
-                childCount: box.length,
+                childCount: curveBox.length,
               ),
             ),
           ],
@@ -88,7 +88,7 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
   }
 }
 
-var box = [
+var curveBox = [
   CurveBox(curve: Curves.linear, str: "linear"),
   CurveBox(curve: Curves.bounceIn, str: "bounceIn"),
   CurveBox(curve: Curves.bounceInOut, str: "bounceInOut"),
