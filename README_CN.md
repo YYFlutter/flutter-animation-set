@@ -2,11 +2,11 @@
 
 [![pub package](https://img.shields.io/pub/v/flutter_animation_set.svg)](https://pub.dev/packages/flutter_animation_set)
 
-Simplified Flutter stagger animation.To drive the Flutter stagger animation through a timeline in the form of an animation configuration.You can
+简化Flutter交错动画。用动画配置的形式，通过时间线去驱动Flutter的交错动画。你可以
 
-1. Uses the existing Animation Widget of `Flutter Animation Set`
-2. Use `Flutter Animation Set` to create a new Animation Widget
-3. Contribute your Flutter Animation Set Widget
+1. 使用`Flutter Animation Set`现有的动画组件
+2. 使用`Flutter Animation Set`去创建新的动画组件
+3. 贡献你的`Flutter Animation Set`动画组件
 
 ## 🎖 Installing
 
@@ -32,7 +32,7 @@ child: YYRotatingPlane(),
 
 **3、road map**
 
-> transition_animations
+> transition_animations 过渡动画
 
 <table>
   <tr>
@@ -155,7 +155,7 @@ child: YYRotatingPlane(),
   </tr>
 </table>
 
-> behavior_animation
+> behavior_animation 行为动画
 
 <table>
   <tr>
@@ -212,10 +212,10 @@ import 'package:flutter_animation_set/animator.dart';
 
 **2、use widget**
 
-Assemble the animation using an AnimatorSet Widget
+通过使用AnimatorSet组装动画
 
-* child:The component that executes the animation
-* animatorSet:Collection of animation
+* child:执行动画的组件
+* animatorSet:动画集合
 
 ```dart
 AnimatorSet(
@@ -230,26 +230,26 @@ about animation widget
 
 Widget|Mean|Description
 :--|:--|:--:|
-**W**|width|Control the change of width. If it is scaled up, SX is recommended instead
-**H**|height|Control the change of height. If it is scaled up, SY is recommended instead
-**P**|padding|Control padding changes
-**O**|opacity|Control opacity changes
-**SX**|scaleX|Scale the X-axis with the midpoint
-**SY**|scaleY|Scale the Y-axis with the midpoint
-**RX**|rotateX|Rotate the X-axis with the midpoint
-**RY**|rotateY|Rotate the Y-axis with the midpoint
-**RZ**|rotateZ|Rotate the Z-axis with the midpoint
-**TX**|transitionX|Translate the Z-axis with the midpoint
-**TY**|transitionY|Translate the Y-axis with the midpoint
-**C**|color|Control background color changes
-**B**|border|Control background border changes
+**W**|width|控制宽度的变化，如果是按比例拉升，建议用SX替代
+**H**|height|控制高度的变化，如果是按比例拉升，建议用SY替代
+**P**|padding|控制边距的变化
+**O**|opacity|控制透明度的变化
+**SX**|scaleX|以中点进行X轴的缩放
+**SY**|scaleY|以中点进行Y轴的缩放
+**RX**|rotateX|以中点进行X轴的旋转
+**RY**|rotateY|以中点进行Y轴的旋转
+**RZ**|rotateZ|以中点进行Z轴的旋转
+**TX**|transitionX|进行X轴的平移
+**TY**|transitionY|进行Y轴的平移
+**C**|color|控制背景颜色变化
+**B**|border|控制背景边框变化
 
 about support widget
 
 Widget|Mean|Description
 :--|:--|:--:|
-**Delay**|delay timeLine|Extend the timeline to wait
-**Serial**|combine animation|Through the combination of animation, to achieve the effect of playing together
+**Delay**|delay timeLine|延长时间线，进入等待阶段
+**Serial**|combine animation|通过组合动画，达到一起播放的效果
 
 ## ⚡ For Example
 
