@@ -11,7 +11,8 @@ Simplified Flutter stagger animation.To drive the Flutter stagger animation thro
 3. Contribute your Flutter Animation Set Widget
 4. Learning Curves of Flutter in example
 
-<br>
+## 🎖 ScreenShot
+
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot1.jpg" width="200px"></img>
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot2.png" width="200px"></img>
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/screenShot3.png" width="200px"></img>
