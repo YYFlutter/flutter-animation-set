@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation_set/widget/behavior_animations.dart';
-import 'package:flutter_animation_set/widget/transition_animations.dart';
 import 'package:flutter_animation_set/animation_set.dart';
 import 'package:flutter_animation_set/animator.dart';
+import 'package:flutter_animation_set/widget/behavior_animations.dart';
+import 'package:flutter_animation_set/widget/transition_animations.dart';
 
 void main() => runApp(AnimatorSetActivity());
 
@@ -26,7 +26,7 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
           slivers: <Widget>[
             SliverToBoxAdapter(
               child: Padding(
-                padding: EdgeInsets.all(12.0),
+                padding: EdgeInsets.all(16.0),
                 child: Text("Transition Animations"),
               ),
             ),
@@ -53,7 +53,7 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
             ),
             SliverToBoxAdapter(
               child: Padding(
-                padding: EdgeInsets.all(12.0),
+                padding: EdgeInsets.all(16.0),
                 child: Text("Behavior Animations"),
               ),
             ),
@@ -69,7 +69,7 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
             ),
             SliverToBoxAdapter(
               child: Padding(
-                padding: EdgeInsets.all(12.0),
+                padding: EdgeInsets.all(16.0),
                 child: Text("Leaning Curves"),
               ),
             ),
@@ -78,7 +78,7 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
                 (BuildContext context, int index) {
                   return box[index];
                 },
-                childCount: 2,
+                childCount: box.length,
               ),
             ),
           ],
@@ -89,18 +89,52 @@ class AnimatorSetState extends State<AnimatorSetActivity> {
 }
 
 var box = [
-  BoxColor(
-      child: CurvesLeaning(curve: Curves.linear), color: Color(0xFF000000)),
-  BoxColor(
-      child: CurvesLeaning(curve: Curves.bounceInOut),
-      color: Color(0xFF000000)),
+  CurveBox(curve: Curves.linear, str: "linear"),
+  CurveBox(curve: Curves.bounceIn, str: "bounceIn"),
+  CurveBox(curve: Curves.bounceInOut, str: "bounceInOut"),
+  CurveBox(curve: Curves.bounceOut, str: "bounceOut"),
+  CurveBox(curve: Curves.decelerate, str: "decelerate"),
+  CurveBox(curve: Curves.ease, str: "ease"),
+  CurveBox(curve: Curves.easeIn, str: "easeIn"),
+  CurveBox(curve: Curves.easeInSine, str: "easeInSine"),
+  CurveBox(curve: Curves.easeInQuad, str: "easeInQuad"),
+  CurveBox(curve: Curves.easeInCubic, str: "easeInCubic"),
+  CurveBox(curve: Curves.easeInQuart, str: "easeInQuart"),
+  CurveBox(curve: Curves.easeInQuint, str: "easeInQuint"),
+  CurveBox(curve: Curves.easeInExpo, str: "easeInExpo"),
+  CurveBox(curve: Curves.easeInCirc, str: "easeInCirc"),
+  CurveBox(curve: Curves.easeInBack, str: "easeInBack"),
+  CurveBox(curve: Curves.easeInOut, str: "easeInOut"),
+  CurveBox(curve: Curves.easeInOutSine, str: "easeInOutSine"),
+  CurveBox(curve: Curves.easeInOutQuad, str: "easeInOutQuad"),
+  CurveBox(curve: Curves.easeInOutCubic, str: "easeInOutCubic"),
+  CurveBox(curve: Curves.easeInOutQuart, str: "easeInOutQuart"),
+  CurveBox(curve: Curves.easeInOutQuint, str: "easeInOutQuint"),
+  CurveBox(curve: Curves.easeInOutExpo, str: "easeInOutExpo"),
+  CurveBox(curve: Curves.easeInOutCirc, str: "easeInOutCirc"),
+  CurveBox(curve: Curves.easeInOutBack, str: "easeInOutBack"),
+  CurveBox(curve: Curves.easeOut, str: "easeOut"),
+  CurveBox(curve: Curves.easeOutSine, str: "easeOutSine"),
+  CurveBox(curve: Curves.easeOutQuad, str: "easeOutQuad"),
+  CurveBox(curve: Curves.easeOutCubic, str: "easeOutCubic"),
+  CurveBox(curve: Curves.easeOutQuart, str: "easeOutQuart"),
+  CurveBox(curve: Curves.easeOutQuint, str: "easeOutQuint"),
+  CurveBox(curve: Curves.easeOutExpo, str: "easeOutExpo"),
+  CurveBox(curve: Curves.easeOutCirc, str: "easeOutCirc"),
+  CurveBox(curve: Curves.easeOutBack, str: "easeOutBack"),
+  CurveBox(curve: Curves.elasticIn, str: "elasticIn"),
+  CurveBox(curve: Curves.elasticInOut, str: "elasticInOut"),
+  CurveBox(curve: Curves.elasticOut, str: "elasticOut"),
+  CurveBox(curve: Curves.fastOutSlowIn, str: "fastOutSlowIn"),
+  CurveBox(curve: Curves.fastLinearToSlowEaseIn, str: "fastLinearToSlowEaseIn"),
+  CurveBox(curve: Curves.slowMiddle, str: "slowMiddle"),
 ];
 
 class BoxColor extends StatefulWidget {
   BoxColor({this.child, this.color = Colors.black});
 
-  var child;
-  var color;
+  final child;
+  final color;
 
   @override
   State<StatefulWidget> createState() {
@@ -113,7 +147,7 @@ class BoxColorState extends State<BoxColor> {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        padding: EdgeInsets.all(30.0),
+        padding: EdgeInsets.all(30),
         child: widget.child,
         color: widget.color,
       ),
@@ -121,47 +155,73 @@ class BoxColorState extends State<BoxColor> {
   }
 }
 
-class CurvesLeaning extends StatefulWidget {
-  CurvesLeaning({this.curve});
+class CurveBox extends StatefulWidget {
+  CurveBox({this.curve, this.str});
 
-  Curve curve;
+  final curve;
+  final str;
 
   @override
   State<StatefulWidget> createState() {
-    return CurvesLeaningState();
+    return CurveBoxState();
   }
 }
 
-class CurvesLeaningState extends State<CurvesLeaning> {
+class CurveBoxState extends State<CurveBox> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.all(12.0),
-      child: Flex(
-        direction: Axis.vertical,
-        children: <Widget>[
-          Container(
-            width: MediaQuery.of(context).size.width,
-            child: AnimatorSet(
-              child: SizedBox(
-                child: Container(
-                  color: Colors.white,
-                ),
-                width: 20,
-                height: 20,
-              ),
-              animatorSet: [
-                TX(
-                  duration: 2000,
-                  from: 0.0,
-                  to: 80.0,
-                  curve: widget.curve,
-                )
-              ],
-            ),
+    var _screenWidth = MediaQuery.of(context).size.width;
+    return Card(
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(12.0))),
+        color: Colors.red,
+        child: Padding(
+          padding: EdgeInsets.all(10.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              makeCurvesTitleBox(_screenWidth, widget.str),
+              makeCurvesCube(_screenWidth, 0, widget.curve),
+              makeCurvesCube(_screenWidth, 100, widget.curve),
+              makeCurvesCube(_screenWidth, 200, widget.curve),
+              makeCurvesCube(_screenWidth, 300, widget.curve),
+              makeCurvesCube(_screenWidth, 400, widget.curve),
+              Divider(height: 10, color: Colors.white)
+            ],
           ),
-        ],
-      ),
-    );
+        ));
   }
+}
+
+Widget makeCurvesTitleBox(width, text) {
+  return SizedBox(
+    width: width,
+    height: 15,
+    child: Text(
+      text.toString(),
+      style: TextStyle(color: Colors.white, fontSize: 12),
+    ),
+  );
+}
+
+Widget makeCurvesCube(width, delay, curve) {
+  return AnimatorSet(
+    child: SizedBox(
+      child: Container(
+        color: Colors.white,
+        width: 20,
+        height: 20,
+      ),
+    ),
+    animatorSet: [
+      TX(
+        delay: delay,
+        duration: 2000,
+        from: 0.0,
+        to: width - 50,
+        curve: curve,
+      )
+    ],
+  );
 }
