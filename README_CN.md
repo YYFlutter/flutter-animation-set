@@ -256,7 +256,7 @@ Widget|Mean|Description
 
 **1、create timeLine**
 
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="700px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="800px">
 <br />
 
 1. 此图表明动画的核心组成是根据时间线(timeLine)去制作的

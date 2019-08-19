@@ -258,7 +258,7 @@ Widget|Mean|Description
 
 **1、create timeLine**
 
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="600px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="800px">
 <br />
 
 1. This figure shows that the core components of the animation are made according to the timeLine
