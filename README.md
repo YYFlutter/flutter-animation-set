@@ -261,13 +261,31 @@ Widget|Mean|Description
 <img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="600px">
 <br />
 
-1. This figure shows that the composition of the animation is made according to the timeLine
-2. If you need to extend the time line, use the Delay Widget to extend the line; the duration property is the extended time
-3. If you need to combine various animations, use the Serial Widget to do so, the duration property being the time of the composition
+1. This figure shows that the core components of the animation are made according to the timeLine
+2. In the process of execution, there are 6 animations simultaneously, and the total animation duration is 900ms
+3. ScaleY components are used to scale up and down in order to make each rectangle have a wave effect
+4. Drag the timeline with the Delay component to reach the animation duration of 900ms
 
 **2、build animatorSet**
 
-Assemble our animation components by the above icon, just need to control the time of Delay
+Assemble our animation component using the diagram above, which has the following properties
+
+* from:Animation initial value
+* to:End of animation value
+* duration:Animation time
+* delay:The delay in actually executing the animation
+* curve:Animation interpolator
+
+```dart
+animatorSet: [
+  Delay(duration: before),
+  SY(from: 0.8, to: 1.6, duration: 200, delay: 0, curve: Curves.linear),
+  SY(from: 1.6, to: 0.8, duration: 200, delay: 0, curve: Curves.linear),
+  Delay(duration: after),
+],
+```
+
+The object that the animation executes is `Container` rectangle
 
 ```dart
 Widget makeWave(int before, int after) {
@@ -286,12 +304,6 @@ Widget makeWave(int before, int after) {
   );
 }
 ```
-
-* from:Animation initial value
-* to:End of animation value
-* duration:Animation time
-* delay:The delay in actually executing the animation
-* curve:Animation interpolator
 
 **3、convert to code**
 
@@ -326,7 +338,7 @@ class YYWave extends StatelessWidget {
 
 **1、Combination of animation**
 
-> The scaling effect requires scaling both the X and Y axes
+> The scaling effect requires scaling both the X and Y axes, uses the Serial Widget
 
 ```dart
 animatorSet: [

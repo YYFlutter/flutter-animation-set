@@ -256,16 +256,34 @@ Widget|Mean|Description
 
 **1、create timeLine**
 
-<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="600px">
+<img src="https://github.com/efoxTeam/flutter-animation-set/raw/master/image/readme/YYWave.png" width="700px">
 <br />
 
-1. 此图表明动画的组成是根据时间线(timeLine)去制作的
-2. 如果需要延长时间线，就用Delay组件去拖长时间线，duration属性为延长的时间
-3. 如果需要组合各种动画，就用Serial组件去组合动画，duration属性为组合的时间
+1. 此图表明动画的核心组成是根据时间线(timeLine)去制作的
+2. 在执行的过程中有6次动画同时进行，且总动画时长都为900ms
+3. 通过ScaleY组件有序的进行放大和缩小的操作，让每个矩形都有波浪的效果
+4. 通过Delay组件去拖长时间线，达到动画时长统一为900ms
 
 **2、build animatorSet**
 
-通过上面的图示组装我们的动画组件，只需要控制好Delay的时间即可
+通过上面的图示组装我们的动画组件，动画组件带有以下属性
+
+* from:动画初始值
+* to:动画结束值
+* duration:动画时间
+* delay:真正执行动画的延时
+* curve:动画插值器
+
+```dart
+animatorSet: [
+  Delay(duration: before),
+  SY(from: 0.8, to: 1.6, duration: 200, delay: 0, curve: Curves.linear),
+  SY(from: 1.6, to: 0.8, duration: 200, delay: 0, curve: Curves.linear),
+  Delay(duration: after),
+],
+```
+
+动画执行的对象是`Container`长方形
 
 ```dart
 Widget makeWave(int before, int after) {
@@ -284,12 +302,6 @@ Widget makeWave(int before, int after) {
   );
 }
 ```
-
-* from:动画初始值
-* to:动画结束值
-* duration:动画时间
-* delay:真正执行动画的延时
-* curve:动画插值器
 
 **3、convert to code**
 
@@ -324,7 +336,7 @@ class YYWave extends StatelessWidget {
 
 **1、组合动画**
 
-> 缩放效果需要同时缩放X、Y轴
+> 缩放效果需要同时缩放X、Y轴，用到Serial组件
 
 ```dart
 animatorSet: [
