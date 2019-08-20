@@ -100,8 +100,8 @@ class AnimatedLogo extends StatelessWidget {
   ///opacityNotify：监听透明度变化，将正在变化的动画值作为opacityValue
   ///opacity：透明度动画集合
   ///opacityValue：最终显示的透明度
-  List<ValueNotifier<double>> opacityNotify = [null, null, null, null];
-  List<Animation<double>> opacity = [null, null, null, null];
+  List<ValueNotifier<double>> opacityNotify = List()..length = 500;
+  List<Animation<double>> opacity = List()..length = 500;
   double opacityValue;
 
   Animation<double> width;
