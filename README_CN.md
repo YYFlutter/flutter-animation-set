@@ -13,7 +13,7 @@
 
 ```yaml
 dependencies:
-  flutter_animation_set: ^0.0.3
+  flutter_animation_set: ^0.0.4
 ```
 
 ## ⚡ Use Animation Set Widget
