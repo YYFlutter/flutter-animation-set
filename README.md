@@ -215,6 +215,15 @@ import 'package:flutter_animation_set/animator.dart';
 
 **2、use widget**
 
+```dart
+AnimatorSet(
+    child: widget.child,
+    animatorSet: [],
+    animationType: AnimationType.reverse,
+    debug: false,
+)
+```
+
 AnimatorSet Supported properties
 
 Property|Mean|Default
@@ -231,15 +240,6 @@ Property|Mean
 repeat|Repeat animation
 reverse|Rewind animation
 once|One play animation
-
-```dart
-AnimatorSet(
-    child: widget.child,
-    animatorSet: [],
-    animationType: AnimationType.reverse,
-    debug: false,
-)
-```
 
 **3、use AnimatorSet api**
 

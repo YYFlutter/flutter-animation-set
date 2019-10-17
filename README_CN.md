@@ -213,6 +213,15 @@ import 'package:flutter_animation_set/animator.dart';
 
 **2、use widget**
 
+```dart
+AnimatorSet(
+    child: widget.child,
+    animatorSet: [],
+    animationType: AnimationType.reverse,
+    debug: false,
+)
+```
+
 AnimatorSet支持的属性
 
 Property|Mean|Default
@@ -229,15 +238,6 @@ Property|Mean
 repeat|重复播放动画
 reverse|倒退播放动画
 once|一次播放动画
-
-```dart
-AnimatorSet(
-    child: widget.child,
-    animatorSet: [],
-    animationType: AnimationType.reverse,
-    debug: false,
-)
-```
 
 **3、use AnimatorSet api**
 
