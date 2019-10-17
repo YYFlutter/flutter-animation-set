@@ -10,3 +10,7 @@
 ## 0.0.3
 
 * add curves learning
+
+## 0.0.4
+
+* add once animation

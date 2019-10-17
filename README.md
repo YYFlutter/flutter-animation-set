@@ -215,19 +215,33 @@ import 'package:flutter_animation_set/animator.dart';
 
 **2、use widget**
 
-Assemble the animation using an AnimatorSet Widget
+AnimatorSet Supported properties
 
-* child:The component that executes the animation
-* animatorSet:Collection of animation
+Property|Mean|Default
+:--|:--|:--:|
+child|The component that performs the animation|not have
+animatorSet|Collection of animation|not have
+animationType|Controls the type of animation execution|AnimationType.repeat
+debug|The output log|false
+
+The properties of the animationType
+
+Property|Mean
+:--|:--|
+repeat|Repeat animation
+reverse|Rewind animation
+once|One play animation
 
 ```dart
 AnimatorSet(
     child: widget.child,
     animatorSet: [],
+    animationType: AnimationType.reverse,
+    debug: false,
 )
 ```
 
-**3、use api**
+**3、use AnimatorSet api**
 
 about animation widget
 

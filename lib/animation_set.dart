@@ -8,6 +8,7 @@ export 'package:flutter_animation_set/animation_set.dart'
 enum AnimationType {
   repeat,
   reverse,
+  once,
 }
 
 class AnimatorSet extends StatefulWidget {

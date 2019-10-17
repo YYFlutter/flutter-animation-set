@@ -213,21 +213,35 @@ import 'package:flutter_animation_set/animator.dart';
 
 **2、use widget**
 
-通过使用AnimatorSet组装动画
+AnimatorSet支持的属性
 
-* child:执行动画的组件
-* animatorSet:动画集合
+Property|Mean|Default
+:--|:--|:--:|
+child|执行动画的组件|无
+animatorSet|动画集合|无
+animationType|控制动画执行的类型|AnimationType.repeat
+debug|输出日志|false
+
+animationType的属性
+
+Property|Mean
+:--|:--|
+repeat|重复播放动画
+reverse|倒退播放动画
+once|一次播放动画
 
 ```dart
 AnimatorSet(
     child: widget.child,
     animatorSet: [],
+    animationType: AnimationType.reverse,
+    debug: false,
 )
 ```
 
-**3、use api**
+**3、use AnimatorSet api**
 
-about animation widget
+关于动画集组件
 
 Widget|Mean|Description
 :--|:--|:--:|
@@ -245,7 +259,7 @@ Widget|Mean|Description
 **C**|color|控制背景颜色变化
 **B**|border|控制背景边框变化
 
-about support widget
+关于辅助组件
 
 Widget|Mean|Description
 :--|:--|:--:|
